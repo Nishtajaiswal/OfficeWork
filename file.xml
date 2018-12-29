@@ -1,9 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name=".TEst123"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <row>
+    <var name="CountryId" value="1" />
+    <var name="Country" value="Afghanistan" />
+    <var name="FIPS104" value="AF" />
+  </row>
+  <row>
+    <var name="CountryId" value="2" />
+    <var name="Country" value="Albania" />
+    <var name="FIPS104" value="AL" />
+  </row>
+  <row>
+    <var name="CountryId" value="3" />
+    <var name="Country" value="Algeria" />
+    <var name="FIPS104" value="AG" />
+  </row>
+</root>
